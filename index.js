@@ -24,3 +24,7 @@ app.get('/students/:id',(req,res)=>{
 
     res.json(student);
 });
+ 
+app.listen(PORT,()=>{
+    console.log(`Server is running on port ${PORT}`);
+});
